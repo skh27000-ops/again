@@ -1,4 +1,30 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/dashboard",
+      "destination": "/dashboard.html"
+    },
+    {
+      "source": "/dashboard.html",
+      "destination": "/dashboard.html"
+    },
+    {
+      "source": "/analytics",
+      "destination": "/analytics.html"
+    },
+    {
+      "source": "/analytics.html",
+      "destination": "/analytics.html"
+    },
+    {
+      "source": "/question-bank",
+      "destination": "/question-bank.html"
+    },
+    {
+      "source": "/question-bank.html",
+      "destination": "/question-bank.html"
+    }
+  ]
 }
